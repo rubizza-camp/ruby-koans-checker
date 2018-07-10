@@ -16,6 +16,7 @@ bundle exec rubocop koans
 
 echo
 echo "----- RUNNING REEK -----"
+echo "----- (all files except neo.rb) -----"
 echo
-bundle exec reek koans
+find koans -type f -not -name 'neo.rb' | xargs reek
 

@@ -16,5 +16,5 @@ docker run -v /path/to/your/finished/koans/folder:/ruby_koans/koans -t allomov/r
 
 ```
 docker build -t allomov/ruby-koans-checker:latest .
-docket push allomov/ruby-koans-checker:latest
+docker push allomov/ruby-koans-checker:latest
 ```
